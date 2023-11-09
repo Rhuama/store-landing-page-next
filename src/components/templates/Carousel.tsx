@@ -17,7 +17,7 @@ export default function Carousel() {
 
   return (
     <div id="indicators-carousel" className="relative w-full" data-carousel="static">
-      <div className="relative overflow-hidden rounded-lg" style={{ height: '1640px' }}>
+      <div className="relative h-96 md:h-63 lg:h-63 xl:h-63 overflow-hidden rounded-lg" style={{height:"63rem"}}>
         {/* Item 1 */}
         <div
           className={`${
